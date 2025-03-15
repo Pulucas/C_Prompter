@@ -47,7 +47,11 @@ void option_hello() {
 }
 
 void option_info() {
-    std::cout << "this info option is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info. whats the info? the info is about info.\n";
+    std::cout << "this info option is about info. ";
+    for (int i = 0; i < 41; i++) {
+        std::cout << "whats the info? the info is about info. ";
+    }
+    std::cout << "\n";
 }
 
 void option_goodbye() {
